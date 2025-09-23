@@ -42,7 +42,7 @@ Make sure you have the following installed on your machine:
 
 ```bash
 git clone https://github.com/Boghos/Real-Estate-App.git
-cd react_native-restate
+cd Real-Estate-App
 ```
 
 **Installation**
