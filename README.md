@@ -1,50 +1,57 @@
-# Welcome to your Expo app 👋
+# Real Estate App (In Progress)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A full-stack mobile Real Estate application built with **React Native**, **Expo**, **Appwrite**, **TypeScript**, and **Tailwind CSS**, featuring Google authentication, dynamic property listings, and user profiles. This project is currently in development as part of a learning initiative.
 
-## Get started
+## Table of Contents
 
-1. Install dependencies
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+- **Authentication**: Secure Google sign-in using Appwrite.
+- **Home Page**: Browse latest and recommended properties.
+- **Explore Page**: Filter and search all types of properties.
+- **Property Details**: View images, descriptions, and key property details.
+- **Profile Page**: Manage user settings and profile info.
+- **Reusable Architecture**: Modular and scalable components for future expansion.
 
-   ```bash
-   npx expo start
-   ```
+## Tech Stack
 
-In the output, you'll find options to open the app in a
+- **React Native** – Cross-platform mobile framework
+- **Expo** – Development tools and universal build system
+- **Appwrite** – Backend-as-a-Service for authentication, database, and storage
+- **TypeScript** – Type-safe JavaScript for scalable code
+- **Tailwind CSS / NativeWind** – Utility-first styling for React Native
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Getting Started
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Prerequisites
 
-## Get a fresh project
+- Node.js
+- npm or yarn
+- Git
+- Expo CLI (npm install -g expo-cli)
 
-When you're ready, run:
+### Installation
 
-```bash
-npm run reset-project
-```
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   git clone https://github.com/adrianhajdin/react_native-restate.git  cd React_Native_RealEstate  npm install   `
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Environment Setup
 
-## Learn more
+Create a .env.local file in the root directory and add your Appwrite credentials:
 
-To learn more about developing your project with Expo, look at the following resources:
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   EXPO_PUBLIC_APPWRITE_ENDPOINT=YOUR_APPWRITE_ENDPOINT  EXPO_PUBLIC_APPWRITE_PROJECT_ID=YOUR_PROJECT_ID  EXPO_PUBLIC_APPWRITE_DATABASE_ID=YOUR_DATABASE_ID  EXPO_PUBLIC_APPWRITE_GALLERIES_COLLECTION_ID=YOUR_GALLERIES_ID  EXPO_PUBLIC_APPWRITE_REVIEWS_COLLECTION_ID=YOUR_REVIEWS_ID  EXPO_PUBLIC_APPWRITE_AGENTS_COLLECTION_ID=YOUR_AGENTS_ID  EXPO_PUBLIC_APPWRITE_PROPERTIES_COLLECTION_ID=YOUR_PROPERTIES_ID   `
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Running the App
 
-## Join the community
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   npx expo start   `
 
-Join our community of developers creating universal apps.
+Then open in:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **Development Build**
+- **Android Emulator**
+- **iOS Simulator**
+- **Expo Go**
